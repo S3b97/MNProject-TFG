@@ -43,12 +43,16 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:background="@drawable/ic_baseline_handyman_24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="260dp"
+        android:layout_marginBottom="150dp"
          />
+
+
 
     <Button
         android:id="@+id/join_us"
@@ -59,14 +63,14 @@
         android:layout_marginBottom="84dp"
         android:background="@drawable/buttonshape"
         android:fontFamily="@font/gotham"
-        android:text="Join us"
+        android:text="Iniciar sesión"
         android:textAllCaps="false"
         android:textColor="#ffffff"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/login"
+        android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
